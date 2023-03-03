@@ -48,7 +48,7 @@ services:
     ports:
       - 8086:8086
     environment:
-      REDIS_HOST: 127.0.0.1
+      REDIS_HOST: mall4j-redis
       REDIS_PORT: 6379
     depends_on:
       - mall4j-redis
